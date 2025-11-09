@@ -102,8 +102,8 @@ jobs:
           FAST_AUDIO: "1"             # hậu kỳ nhẹ (chỉ loudnorm)
 
           TARGET_AUDIO_SEC: "3600"
-          INIT_TARGET_CHARS: "7000"
-          INIT_TARGET_SEC_HINT: "400"
+          INIT_TARGET_CHARS: "5000"
+          INIT_TARGET_SEC_HINT: "300"
 
           # Sáng tạo + chống lặp cho Gemini
           GEN_TEMP: "1.1"                 # 1.0–1.1: sáng tạo/ổn định
