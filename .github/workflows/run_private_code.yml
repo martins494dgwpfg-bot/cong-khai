@@ -103,7 +103,7 @@ jobs:
 
           TARGET_AUDIO_SEC: "300"
           INIT_TARGET_CHARS: "1000"
-          INIT_TARGET_SEC_HINT: "300"
+          INIT_TARGET_SEC_HINT: "100"
 
           # Sáng tạo + chống lặp cho Gemini
           GEN_TEMP: "1.1"                 # 1.0–1.1: sáng tạo/ổn định
