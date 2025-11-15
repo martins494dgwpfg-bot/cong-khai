@@ -122,9 +122,8 @@ jobs:
           IMG_W: "1280"
           IMG_H: "720"
           POLL_IMG_MODEL: "flux-anime"
-          IMG_RATE_SEC: "15"
-          IMG_TIMEOUT_SEC: "60"
-          IMG_MAX_ATTEMPTS: "6"       # thêm env này để limit số lần retry (code đã đọc env này)
+          IMG_RATE_SEC: "1.5"
+          IMG_TIMEOUT_SEC: "15"
 
           YOUTUBE_PRIVACY: public
           PYTHONUNBUFFERED: "1"
